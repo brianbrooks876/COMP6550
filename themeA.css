@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rosarivo:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("b4_big_35percent.png");
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgba(17,17,17,.25);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgba(17,17,17,.25);
+}
+
+.copyright {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  font-style: bold;
+  text-align: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links, .footer_links {
+  list-style: none;
+}
+
+.nav_links li {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #edf0f1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.footer_links li {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.footer_links li a {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover, .footer_links li a:hover {
+  color: #f1562d 
+}
+
+.item_name {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  font-style: bold;
+  text-align: center;
+}
+
+.item_description {
+  font-family: "Rosarivo", serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.item_price {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section_header {
+  font-family: "Manrope", serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #f1562d;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu_section_header {
+  font-family: "Manrope", serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tagline{
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #bababa;
+  text-decoration: none;
+  text-align: center;
+}
+
+.restaurant_name {
+  font-family: "Rosarivo", serif;
+  font-weight: 500;
+  font-size: 80px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.slogan {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #bababa;
+  text-decoration: none;
+  text-align: center;
+}
+
+.detail_info, .contact_info {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.catalog, .details, .contact {
+  background-color: #202020;
+  border-radius: 30px;
+  padding: 20px;
+  text-decoration: none;
+  width: 860px ;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
