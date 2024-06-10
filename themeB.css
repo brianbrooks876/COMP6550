@@ -6,22 +6,41 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #24252a;
+  list-style-type: none;
 }
-  
-li, a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  color: #edf0f1;
-  text-decoration: none;
+
+.logo {
+  filter: invert(20%) sepia(43%) saturate(5480%) hue-rotate(354deg) brightness(99%) contrast(80%);
 }
-  
-header {
+
+body {
+  background-image: url("backdropB.png");
+}
+
+.header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
+  background-color: rgba(17,17,17,.25);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgba(17,17,17,.25);
+}
+
+.copyright {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #202020;
+  text-decoration: none;
+  font-style: bold;
+  text-align: center;
 }
 
 .logo {
@@ -33,36 +52,99 @@ header {
   list-style: none;
 }
 
-.nav_links li, .footer_links li {
+.nav_links li {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #202020;
+  text-decoration: none;
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav_links li a, .footer_links li a {
+.footer_links li {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #202020;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #202020;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.footer_links li a {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #202020;
+  text-decoration: none;
   transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover, .footer_links li a:hover {
-  color: #0088a9 
+  color: #ca2424 
 }
 
-.catalog, .contact, .details {
-  font-family: "Roboto", sans-serif;
+.item_name {
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: #edf0f1;
   text-decoration: none;
+  font-style: bold;
+  text-align: center;
 }
 
-.catalog {
-  background: #121213;
+.item_description {
+  font-family: "Rosarivo", serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.item_price {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section_header {
+  font-family: "Manrope", serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #c5b48d;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu_section_header {
+  font-family: "Manrope", serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
 }
 
 .tagline{
-  font-family: "Roboto", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  color: #777878;
+  color: #202020;
   text-decoration: none;
   text-align: center;
 }
@@ -71,23 +153,39 @@ header {
   font-family: "Rosarivo", serif;
   font-weight: 500;
   font-size: 80px;
-  color: #edf0f1;
+  color: #ca2424;
   text-decoration: none;
   text-align: center;
 }
 
 .slogan {
-  font-family: "Roboto", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 28px;
-  color: #777878;
+  color: #202020;
   text-decoration: none;
   text-align: center;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 10%;
+.detail_info, .contact_info {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.catalog, .details, .contact {
+  background-color: #1e532c;
+  border-radius: 30px;
+  padding: 20px;
+  text-decoration: none;
+  width: 860px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
 }
