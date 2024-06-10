@@ -6,10 +6,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+}
+
+.logo {
+  filter: invert(53%) sepia(59%) saturate(5820%) hue-rotate(346deg) brightness(99%) contrast(90%);
 }
 
 body {
-  background-image: url("b4_big_35percent.png");
+  background-image: url("backdropA.png");
 }
 
 .header {
@@ -179,5 +184,8 @@ body {
   width: 860px ;
   margin-left: auto;
   margin-right: auto;
-  list-style-type: none;
 }
+
+ul {
+  list-style-type: none;
+} 
